@@ -23,5 +23,4 @@ public class GitHubUserController {
 	public GitHubUser getGitHubUser(@PathVariable(value = "username") String username) {
 		return gitHubService.getUser(username);
 	}
-
 }

@@ -22,5 +22,4 @@ public class GitHubService {
 		String url = gitHubUserApiUrl + username;
 		return restTemplate.getForObject(url, GitHubUser.class);
 	}
-
 }
